@@ -1,5 +1,5 @@
 #Compara los campos y tamaños de dos dbf's
-#Just compares fields and field sizes between two pdf's
+#Just compares fields and field sizes between two dbf's
 
 from dbfread import DBF
 
