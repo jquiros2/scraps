@@ -1,0 +1,2 @@
+#You have a csv.  You will create a db from it.  You want to know the largest size of each of its columns.  Run this.
+awk -F',' 'BEGIN {OFS=","} {gsub(/-/, "", $1); print}' list.csv
